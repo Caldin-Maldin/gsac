@@ -1,0 +1,11 @@
+{
+  "config": {
+    "error": {
+      "device_id_required": "Device ID is required",
+      "device_id_length": "Device ID must be exactly 12 characters",
+      "device_id_format": "Only characters A-F and digits 0-9 are allowed",
+      "device_id_already_configured": "This device is already configured",
+      "mqtt_topic_not_found": "MQTT topics were not found"
+    }
+  }
+}
