@@ -1,4 +1,6 @@
-Кастомная интеграция кондиционера GoldStar GSAC/GSACI в Home Assistant с помощью самодельного свистка Hommyn из esp32-c3. 
+Кастомная интеграция кондиционера GoldStar GSAC/GSACI в Home Assistant 
+с помощью самодельного свистка Hommyn из esp32-c3. 
+
 ![246cadceedc56557afbd2a97586df4c5234e98b59bbb879a788ec9ea96baed20](https://github.com/user-attachments/assets/f5316980-86d0-4355-ba43-45d4ac0d0a15)
 
 1. Для начала необходимо заиметь (купить или самому спаять) свисток Hommyn. 
