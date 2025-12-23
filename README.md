@@ -12,4 +12,22 @@
 Обычно это mac-адрес esp32-c3
 <img width="1600" height="789" alt="image_2025-12-23_12-15-36" src="https://github.com/user-attachments/assets/91ad362a-6981-4a50-bc40-25948985d5e6" />
 
-4. Следующий шаг это установка интеграции. Копируете папку /gsac в вашу папку custom_components. Перезагрузка HAOS
+4. Следующий шаг это установка интеграции. Копируете папку /gsac в вашу папку custom_components. Перезагрузка HAOS.
+
+5. Добавляем интеграцию.
+<img width="1600" height="830" alt="image_2025-12-23_12-41-50" src="https://github.com/user-attachments/assets/0b75b76f-3109-4328-a23f-30969999bc02" />
+
+6. Вводим device_id (топик кондиционера из mqtt брокера)
+<img width="1600" height="825" alt="image_2025-12-23_12-42-32" src="https://github.com/user-attachments/assets/7eaadfa6-6806-45ca-bcc5-92c507f98fe6" />
+
+7. В итоге получаем вот такие сущности. Можно управлять через климат, можно через свичи и селекты. Кому как удобно.
+<img width="334" height="655" alt="image_2025-12-23_13-00-02" src="https://github.com/user-attachments/assets/f82699f2-4e6f-49fa-baea-84d68c13a836" />
+
+P.S. Отсутствует управление вертикальными жалюзи, т.к. "кривая" реализация топиков со стороны Hommyn при локальном управлении. Если естьнеобходимость в управлении ими (жалюзи), можно использовать другую интеграцию  https://github.com/samoswall/polaris-mqtt
+
+
+
+
+
+
+
