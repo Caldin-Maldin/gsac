@@ -1,4 +1,4 @@
-"""Климат-платформа для интеграции Вольдемаров кондиционер."""
+"""Климат-платформа для интеграции Кондиционер GoldStar GSAC/GSACI."""
 from __future__ import annotations
 
 import logging
@@ -131,9 +131,9 @@ class PolarisClimateEntity(GSACBaseEntity, ClimateEntity):
         
         self._attr_device_info = {
             "identifiers": {(DOMAIN, device_id)},
-            "name": f"Вольдемаров кондиционер ({device_id})",
+            "name": f"Кондиционер GoldStar GSAC/GSACI ({device_id})",
             "manufacturer": "Voldemar",
-            "model": "Local MQTT",
+            "model": "GoldStar GSAC/GSACI",
             "via_device": (DOMAIN, device_id),
         }
         

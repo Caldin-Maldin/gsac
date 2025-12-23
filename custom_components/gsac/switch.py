@@ -1,4 +1,4 @@
-"""Переключатель жалюзи для интеграции Вольдемаров кондиционер."""
+"""Переключатель жалюзи для интеграции Кондиционер GoldStar GSAC/GSACI."""
 from __future__ import annotations
 
 import logging
@@ -50,7 +50,7 @@ async def async_setup_entry(
         device_id=device_id,
         topic_in=topics["backlight_in"],
         topic_out=topics["backlight_out"],
-        name="Горизонтальные жалюзи",
+        name="Жалюзи",
         switch_type="horizontal_blinds",
         icon="mdi:blinds-horizontal",
         entry_id=config_entry.entry_id
@@ -87,9 +87,9 @@ class BlindsSwitch(GSACBaseEntity, SwitchEntity):
         
         self._attr_device_info = {
             "identifiers": {(DOMAIN, device_id)},
-            "name": f"Вольдемаров кондиционер ({device_id})",
+            "name": f"Кондиционер GoldStar GSAC/GSACI ({device_id})",
             "manufacturer": "Voldemar",
-            "model": "Local MQTT",
+            "model": "GoldStar GSAC/GSACI",
         }
         
         self._state = False

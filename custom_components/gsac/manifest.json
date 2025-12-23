@@ -1,9 +1,9 @@
 {
   "domain": "gsac",
-  "name": "Вольдемаров кондиционер",
+  "name": "Кондиционер GoldStar GSAC/GSACI",
   "version": "2.0.5",
-  "documentation": "https://github.com/your-repo/gsac",
-  "issue_tracker": "https://github.com/your-repo/gsac/issues",
+  "documentation": "https://github.com/Caldin-Maldin/gsac",
+  "issue_tracker": "https://github.com/Caldin-Maldin/gsac/issues",
   "requirements": [],
   "dependencies": ["mqtt"],
   "codeowners": ["@Вольдемар"],

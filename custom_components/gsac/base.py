@@ -12,7 +12,7 @@ _LOGGER = logging.getLogger(__name__)
 
 
 class GSACBaseEntity(Entity):
-    """Базовый класс для всех сущностей Вольдемаров кондиционера."""
+    """Базовый класс для всех сущностей Кондиционер GoldStar GSAC/GSACIа."""
     
     def __init__(
         self,

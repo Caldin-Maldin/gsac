@@ -1,4 +1,4 @@
-"""Интеграция Вольдемаров кондиционер через MQTT."""
+"""Интеграция Кондиционер GoldStar GSAC/GSACI через MQTT."""
 from __future__ import annotations
 
 import logging

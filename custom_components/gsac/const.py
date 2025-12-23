@@ -1,18 +1,17 @@
-"""Константы для интеграции Вольдемаров кондиционер."""
+"""Константы для интеграции Кондиционер GoldStar GSAC/GSACI."""
 
 # Идентификатор домена (обязательно должен совпадать с именем папки)
 DOMAIN = "gsac"
 
 # Название интеграции для UI
-DEFAULT_NAME = "Вольдемаров кондиционер"
+DEFAULT_NAME = "Кондиционер GoldStar GSAC/GSACI"
 
 # Стандартный device_id (12 hex-символов)
-DEFAULT_DEVICE_ID = "1cdbd4cbcc74"
-DEFAULT_IP_ADDRESS = "192.168.1.34"
+DEFAULT_DEVICE_ID = ""
+
 
 # Конфигурационные ключи
 CONF_DEVICE_ID = "device_id"
-CONF_IP_ADDRESS = "ip_address"
 
 # ============ СООБЩЕНИЯ ОБ ОШИБКАХ ============
 ERROR_MESSAGES = {
@@ -20,15 +19,10 @@ ERROR_MESSAGES = {
     "device_id_length": "Device ID должен состоять из 12 символов",
     "device_id_format": "Используйте только буквы a-f и цифры 0-9",
     "device_id_already_configured": "Этот Device ID уже настроен",
-    "device_id_already_used": "Этот Device ID уже используется в другой конфигурации",
-    "ip_address_required": "Введите IP-адрес кондиционера",
-    "ip_address_invalid": "Неверный формат IP-адреса",
-    "device_unavailable": "Устройство недоступно по указанному IP-адресу",
+    "device_id_already_used": "Этот Device ID уже используется в другой конфигурации"
 }
 
 # ============ ПАРАМЕТРЫ ПРОВЕРКИ ДОСТУПНОСТИ ============
-PING_TIMEOUT = 2  # Таймаут ping в секундах
-PING_COUNT = 2    # Количество попыток ping
 CHECK_AVAILABILITY = True  # Включить проверку доступности
 
 

@@ -1,4 +1,4 @@
-"""Конфигурационный поток для интеграции Вольдемаров кондиционер."""
+"""Конфигурационный поток для интеграции Кондиционер GoldStar GSAC/GSACI."""
 from __future__ import annotations
 
 import asyncio
@@ -72,7 +72,7 @@ class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
                 
                 # Создаем запись конфигурации
                 return self.async_create_entry(
-                    title=f"Вольдемаров кондиционер ({device_id})",
+                    title=f"Кондиционер GoldStar GSAC/GSACI ({device_id})",
                     data=data
                 )
 

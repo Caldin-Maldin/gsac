@@ -1,4 +1,4 @@
-"""Числовая сущность для установки температуры в интеграции Вольдемаров кондиционер."""
+"""Числовая сущность для установки температуры в интеграции Кондиционер GoldStar GSAC/GSACI."""
 from __future__ import annotations
 
 import logging
@@ -85,9 +85,9 @@ class TargetTemperatureNumber(GSACBaseEntity, NumberEntity):
         
         self._attr_device_info = {
             "identifiers": {(DOMAIN, device_id)},
-            "name": f"Вольдемаров кондиционер ({device_id})",
+            "name": f"Кондиционер GoldStar GSAC/GSACI ({device_id})",
             "manufacturer": "Voldemar",
-            "model": "Local MQTT",
+            "model": "GoldStar GSAC/GSACI",
         }
         
         self._message_callback = None

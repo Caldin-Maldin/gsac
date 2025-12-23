@@ -1,4 +1,4 @@
-"""Селекторы для интеграции Вольдемаров кондиционер."""
+"""Селекторы для интеграции Кондиционер GoldStar GSAC/GSACI."""
 from __future__ import annotations
 
 import logging
@@ -88,9 +88,9 @@ class ModeSelect(GSACBaseEntity, SelectEntity):
         
         self._attr_device_info = {
             "identifiers": {(DOMAIN, device_id)},
-            "name": f"Вольдемаров кондиционер ({device_id})",
+            "name": f"Кондиционер GoldStar GSAC/GSACI ({device_id})",
             "manufacturer": "Voldemar",
-            "model": "Local MQTT",
+            "model": "GoldStar GSAC/GSACI",
         }
         
         self._attr_options = list(MODE_SELECT_OPTIONS.values())
@@ -211,9 +211,9 @@ class FanSpeedSelect(GSACBaseEntity, SelectEntity):
         
         self._attr_device_info = {
             "identifiers": {(DOMAIN, device_id)},
-            "name": f"Вольдемаров кондиционер ({device_id})",
+            "name": f"Кондиционер GoldStar GSAC/GSACI ({device_id})",
             "manufacturer": "Voldemar",
-            "model": "Local MQTT",
+            "model": "GoldStar GSAC/GSACI",
         }
         
         self._attr_options = list(FAN_SELECT_OPTIONS.values())

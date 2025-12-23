@@ -1,4 +1,4 @@
-"""Сенсоры температуры для интеграции Вольдемаров кондиционер."""
+"""Сенсоры температуры для интеграции Кондиционер GoldStar GSAC/GSACI."""
 from __future__ import annotations
 
 import logging
@@ -92,9 +92,9 @@ class TemperatureSensor(GSACBaseEntity, SensorEntity):
         
         self._attr_device_info = {
             "identifiers": {(DOMAIN, device_id)},
-            "name": f"Вольдемаров кондиционер ({device_id})",
+            "name": f"Кондиционер GoldStar GSAC/GSACI ({device_id})",
             "manufacturer": "Voldemar",
-            "model": "Local MQTT",
+            "model": "GoldStar GSAC/GSACI",
         }
         
         self._attr_native_value = None
