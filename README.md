@@ -5,3 +5,4 @@
 Покупается в любом маркетплейсе, паяется из ESP32-c3 и преобразователя уровней (можно и без него, просто добавив пару резисторов).
 Более подробно можно прочитать тут - https://4pda.to/forum/index.php?showtopic=1076299&st=440#entry137049462
 
+![246cadceedc56557afbd2a97586df4c5234e98b59bbb879a788ec9ea96baed20](https://github.com/user-attachments/assets/f5316980-86d0-4355-ba43-45d4ac0d0a15)
